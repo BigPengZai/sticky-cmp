@@ -1,0 +1,101 @@
+/* pages/home/home.wxss */
+view, text {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.first{
+  width: 90%; 
+  height: 300rpx; 
+  background: #f0f0f0; 
+  margin: 30rpx auto;
+}
+
+
+.second {
+  width: 90%;
+  height: 80px;
+  margin: 32rpx auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.block-second {
+  width: 48%;
+  height: 80px;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.third{
+  height: 40px;
+  width: 90%;
+  background: #f0f0f0; 
+  margin: 30rpx auto;
+}
+
+.navbar-wrap {
+  width: 100%;
+  height: 100rpx;
+
+}
+
+.navbar-wrap .column {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: gray;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+}
+
+.navbar-wrap .fixed {
+  position: fixed;
+
+}
+
+
+
+.navbar-wrap .column .tab {
+  width: 25%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color:yellow;
+  letter-spacing: 1px;
+
+}
+
+.list-item{
+  width: 100%; 
+  height: 120rpx; 
+  background: #f0f0f0; 
+  margin: 20rpx auto;
+  text-align: center;
+  line-height: 120rpx;
+}
+.back-top{
+  width: 106rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px 0px rgba(153, 153, 153, 0.8);
+  border-radius: 100px 0px 0px 100px;
+  position: fixed;
+  bottom: 240rpx;
+  right: 0;
+  text-align: center;
+  color: #666;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  padding: 0rpx 24rpx;
+  z-index: 9999;
+}

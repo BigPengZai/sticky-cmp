@@ -1,0 +1,25 @@
+<!--pages/homesthird/homesthird.wxml-->
+<view class="first"></view>
+
+<view class="second">
+  <view wx:for="{{2}}" wx:key="{{index}}" class="block-second"></view>
+</view>
+
+
+
+<view class="navbar-wrap" id="navbar-wrap">
+  <view class="column {{isFixedTop?'fixed':''}}" id="navbar" bindtap="handleNavbar">
+    <view class="tab">兔年大吉</view>
+    <view class="tab">身体健康</view>
+    <view class="tab">阖家幸福</view>
+    <view class="tab">财源滚滚</view>
+  </view>
+  <!-- 用于吸顶后 占位用的 -->
+  <view class="column" wx:if="{{isFixedTop}}"></view>
+  <view class="back-top" wx:if="{{isFixedTop}}" bindtap="handleTop">顶部</view>
+</view>
+
+
+<block wx:for="{{30}}" wx:key="list">
+  <view class="list-item">{{"item-"+index}}</view>
+</block>
